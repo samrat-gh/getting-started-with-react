@@ -1,0 +1,47 @@
+<!-- <!DOCTYPE html> -->
+<html>
+<head>
+    <title>Eligibility Test</title>
+</head>
+<body>
+
+    <input type="button" value="Click to Compare" onclick="compare()">
+
+    <script>
+        // camelCase - prabeshBhushal
+
+
+         function compare() {
+
+         var a = parseInt(prompt("Enter first number: A"));
+         var b = parseInt(prompt("Enter second number: B"));
+         var c = parseInt(prompt("Enter third number: C"));
+
+         console.log('Given, A is ' + a + ' B is ' + b + ' C is ' + c);
+
+         if(a > b && a > c){ //if true
+            console.log('A is greatest number');
+            document.write('A is greatest number');
+         }
+
+         else if(b > c && b > a){
+            console.log('B is greatest number')
+            document.write('B is greatest number')
+         }
+
+         else if (c > a && c> b){
+            console.log('C is greatest number')
+            document.write('C is greatest number')
+         }
+
+         else {
+            console.log('Please, Enter three different number')
+         }  }
+
+         
+
+    </script>
+
+    
+</body>
+</html>
